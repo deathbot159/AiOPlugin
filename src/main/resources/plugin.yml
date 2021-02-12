@@ -1,0 +1,13 @@
+name: AiOPlugin
+version: ${project.version}
+main: pl.deathbot159.aioplugin.Main
+api-version: 1.16
+load: STARTUP
+depend: [ ProtocolLib ]
+authors: [ deathbot159 ]
+description: Many many many features in one plugin.
+
+commands:
+  hologram:
+    permission: aio.usage.hologram
+    aliases: [holo]
